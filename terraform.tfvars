@@ -1,0 +1,8 @@
+aws_region            = "us-east-2"
+profile               = "leela"
+api_name              = "bouncer"
+api_basepath          = "bouncer"
+api_stage_name        = "test"
+lambda_function_name  = "LambdaFunctionOverHttps2"
+lambda_authorizer_uri = "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:541828643250:function:authorizer/invocations"
+lambda_function_uri   = "arn:aws:apigateway:us-east-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-east-2:541828643250:function:LambdaFunctionOverHttps2/invocations"
