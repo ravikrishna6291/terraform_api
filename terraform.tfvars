@@ -1,0 +1,6 @@
+aws_region            = "us-east-2"
+profile               = "leela"
+api_name              = "bouncer"
+api_basepath          = "bouncer"
+api_stage_name        = "test"
+lambda_function_name  = "SampleLambda"
